@@ -1,25 +1,33 @@
-# [PROJECT TITLE]
+# DiffAmp
 
-[![release](https://img.shields.io/github/v/release/[GITHUB_USER]/[REPOSITORY]?label=release)](https://github.com/[GITHUB_USER]/[REPOSITORY]/releases)
-[![Build](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml/badge.svg)](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml)
+[![release](https://img.shields.io/github/v/release/github.com/TIH-engineering/DiffAmp?label=release)](https://github.com/github.com/TIH-engineering/DiffAmp/releases)
+[![Build](https://github.com/github.com/TIH-engineering/DiffAmp/actions/workflows/build.yml/badge.svg)](https://github.com/github.com/TIH-engineering/DiffAmp/actions/workflows/build.yml)
 ![Hardware](https://img.shields.io/badge/Hardware-KiCad-blue)
 ![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey)
 
 ## 🔌 Leiterplattenbeschreibung
 
-Die Leiterplatte **[PROJECT TITLE]** wurde für [kurze Beschreibung des Einsatzzwecks] entwickelt.
+Die Leiterplatte **DiffAmp** dient zur praktischen Untersuchung von **Differenzverstärkern**. Sie ermöglicht den Vergleich einer diskret mit Transistoren aufgebauten Differenzverstärkerstufe mit einem Differenzverstärker auf Basis eines **Operationsverstärkers**.
 
-[Hier 2–4 Sätze zur Funktion der Leiterplatte, zum Aufbau und zum vorgesehenen Einsatz.]
+Die Leiterplatte enthält zwei unterschiedliche Schaltungsvarianten:
 
-### Funktionen
+- **Differenzverstärker mit zwei Bipolartransistoren**
+- **Differenzverstärker mit Operationsverstärker (Subtrahierer)**
 
-- [Funktion / Schaltung 1]
-- [Funktion / Schaltung 2]
-- [Funktion / Schaltung 3]
+Der diskrete Differenzverstärker kann über Jumper in unterschiedlichen Betriebsarten betrieben werden. Die gemeinsame Emitterbeschaltung der beiden Transistoren kann wahlweise mit einem **Emitterwiderstand** oder mit einer **Stromquelle** realisiert werden. Dadurch lässt sich der Einfluss der Stromquellenschaltung auf das Verhalten des Differenzverstärkers praktisch untersuchen.
 
-[Optionaler Absatz zu besonderen Eigenschaften, Messpunkten, austauschbaren Bauteilen, Schnittstellen usw.]
+Zusätzliche Jumper ermöglichen unterschiedliche Messkonfigurationen zur Bestimmung der
 
-> **Einsatzgebiet:** [Kurze Beschreibung des vorgesehenen Einsatzes]
+- **Gegentaktverstärkung**
+- **Gleichtaktverstärkung**
+
+Damit können aus den Messwerten auch die Unterschiede zwischen Gegentakt- und Gleichtaktansteuerung sowie die **Gleichtaktunterdrückung** des Differenzverstärkers untersucht werden.
+
+Als Vergleichsschaltung ist zusätzlich ein Differenzverstärker mit einem **LM358-Operationsverstärker** aufgebaut. Dieser arbeitet als Subtrahierer und bildet die Differenz der beiden Eingangssignale `In1` und `In2`.
+
+Die verschiedenen Ausgangssignale der Schaltungen stehen an separaten Anschlüssen zur Verfügung und können beispielsweise mit einem **Oszilloskop** vermessen und miteinander verglichen werden.
+
+> **Einsatzgebiet:** Laborübungen und Unterricht zu Differenzverstärkern, Operationsverstärkern, Gegentakt- und Gleichtaktverstärkung sowie Gleichtaktunterdrückung
 
 ---
 
@@ -61,10 +69,10 @@ Die Dateien werden automatisch durch den Release-Workflow erzeugt.
 
 | Eigenschaft | Wert |
 |---|---|
-| **Projekt** | [PROJECT TITLE] |
+| **Projekt** | DiffAmp |
 | **Software** | KiCad 10 |
-| **Repository** | [GITHUB_USER]/[REPOSITORY] |
-| **Autor** | [NAME] |
+| **Repository** | github.com/TIH-engineering/DiffAmp |
+| **Autor** | TIH |
 | **Lizenz** | CC BY-NC-SA 4.0 |
 
 ---

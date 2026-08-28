@@ -11,7 +11,7 @@ on:
 jobs:
   export-kicad:
     env:
-      KICAD_BASE_FILENAME: "Template"
+      KICAD_BASE_FILENAME: "DiffAmp"
       KICAD_BASE_FOLDER: "./pcb"
       KICAD_SCHEMATIC_FILE_EXTENSION: "kicad_sch"
       KICAD_PCB_FILE_EXTENSION: "kicad_pcb"

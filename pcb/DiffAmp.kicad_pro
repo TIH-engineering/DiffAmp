@@ -168,7 +168,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -560,7 +560,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -582,7 +582,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Template.kicad_pro",
+    "filename": "DiffAmp.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -620,13 +620,11 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KIPRJMOD}/templates/default.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -744,23 +742,21 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${KIPRJMOD}/templates/default.kicad_wks",
-    "plot_directory": "",
+    "page_layout_descr_file": "${KIPRJMOD}\\templates\\default.kicad_wks",
+    "plot_directory": "7Phasenblinker",
     "reuse_designators": true,
-    "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Template.kicad_sch",
-        "name": "Template",
+        "filename": "DiffAmp.kicad_sch",
+        "name": "DiffAmp",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
@@ -770,18 +766,18 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Template"
+      "DiffAmp"
     ]
   ],
   "text_variables": {
-    "acronym": "",
+    "acronym": "LA",
     "company": "HTL-Rankweil",
-    "creator": "[NAME]",
-    "date": "",
-    "license": "CC BY-NC-SA 4.0",
-    "link": "[REPOSITORY URL]",
-    "revision": "0.1",
-    "title": "[PROJECT TITLE]"
+    "creator": "TIH",
+    "date": "2024-12-17",
+    "license": "",
+    "link": "",
+    "revision": "1.0",
+    "title": "DiffAmp"
   },
   "tuning_profiles": {
     "meta": {

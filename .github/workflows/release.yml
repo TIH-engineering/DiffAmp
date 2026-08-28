@@ -2,7 +2,7 @@ name: KiCad Release
 
 env:
   THUMBNAIL_WIDTH: 200
-  KICAD_BASE_FILENAME: "Template"
+  KICAD_BASE_FILENAME: "DiffAmp"
 
 on:
   release:
