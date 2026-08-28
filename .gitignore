@@ -1,0 +1,81 @@
+# KiCad / GitHub project template
+# Keep source files, project-local libraries and documentation under version control.
+# Ignore only temporary, user-specific and reproducible generated files.
+
+# -----------------------------------------------------------------------------
+# KiCad temporary / backup files
+# -----------------------------------------------------------------------------
+
+*.000
+*.bak
+*.bck
+*.tmp
+*~
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+
+# KiCad backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.sch-bak
+
+# KiCad lock files
+*.lck
+~*.lck
+
+# KiCad user-specific local settings
+*.kicad_prl
+
+# Legacy KiCad cache
+fp-info-cache
+
+# KiCad local history / backup directories
+.history/
+**/.history/
+*backups/
+*-backups/
+
+# -----------------------------------------------------------------------------
+# Generated intermediate files
+# -----------------------------------------------------------------------------
+
+# Netlists exported from the schematic editor
+*.net
+
+# Autorouter files
+*.dsn
+*.ses
+
+# -----------------------------------------------------------------------------
+# KiBot / CI generated output
+# -----------------------------------------------------------------------------
+
+# All reproducible build/release artifacts should be generated into this folder
+output/
+**/output/
+
+# Common locally generated fabrication / plot directories
+*[Gg]erber_*/
+*[Gg]erber/
+*[Pp][Ll][Oo][Tt]_*/
+*[Pp][Ll][Oo][Tt]/
+
+# -----------------------------------------------------------------------------
+# Notes
+# -----------------------------------------------------------------------------
+
+# Do NOT globally ignore *.pdf, *.docx, *.xlsx or *.zip.
+# Such files may be intentional project documentation.
+# Reproducible KiBot outputs belong in output/ and are ignored there.
+#
+# Keep these files under version control when used:
+#   *.kicad_pro
+#   *.kicad_sch
+#   *.kicad_pcb
+#   *.kicad_dru
+#   *.kicad_wks
+#   fp-lib-table
+#   sym-lib-table
+#   project-local *.pretty libraries

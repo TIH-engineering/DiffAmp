@@ -1,0 +1,476 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "${acronym} - ${title}")
+		(date "${date}")
+		(rev "${revision}")
+		(company "${company}")
+		(comment 1 "${creator}")
+		(comment 2 "${license}")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ce63a6-a297-4abb-97c6-2cd10f5cd9c5")
+		(property "Reference" "H3"
+			(at 92.71 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.71 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 90.17 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Template"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b4d72af-bac0-4292-881e-4860188816f5")
+		(property "Reference" "H2"
+			(at 92.71 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.71 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 90.17 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Template"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f85da3-c0c3-4b7c-995d-ca8e7a743394")
+		(property "Reference" "H1"
+			(at 92.71 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.71 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 90.17 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Template"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d377850-fd26-41e0-83b5-dfe9bf2c24bd")
+		(property "Reference" "H4"
+			(at 92.71 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 90.17 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Template"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "default.kicad_wks")
+			(type worksheet)
+			(data |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|
+			)
+			(checksum "C9F67B3DE5916DBE20035BBD613A3D7D")
+		)
+	)
+)
